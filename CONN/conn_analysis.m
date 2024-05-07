@@ -101,7 +101,7 @@ batch.Setup.rois.multiplelabels(4) = 1;
 batch.Setup.rois.files{5}='/SCRATCH/software/toolboxes/conn21a/rois/networks.nii';
 batch.Setup.rois.multiplelabels(5) = 1;
 
-vois_dir = '/DATAPOOL/home/cdias/errorMonitoring_fMRI/group_level_analysis/ROIs/Atlas/AAL3 and Brainnetome/';
+vois_dir = '/DATAPOOL/ERRORMONITORING/group_level_analysis/ROIs/Atlas/AAL3 and Brainnetome/';
 
 batch.Setup.rois.files{6} = [vois_dir, 'ACC/dACC/A32p_BN.nii'];
 batch.Setup.rois.multiplelabels(6) = 0;
