@@ -2,7 +2,7 @@
 ind = 1;
 data = dir('/DATAPOOL/ERRORMONITORING/SEM_mri_data/P*');
 %% 
-for i = size(data,1)-1
+for i = 1:size(data,1)
     
     data_func = dir([data(i).folder, '/', data(i).name, '/mri/SEM_', data(i).name,  '/nifti/func/run*']);
     fprintf(data(i).name);
