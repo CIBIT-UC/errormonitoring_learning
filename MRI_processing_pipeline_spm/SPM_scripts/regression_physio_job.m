@@ -9,7 +9,6 @@ for i = 1:size(data,1)
     
     for j = 1:size(data_func,1) 
         
-        data_func = dir(fullfile([folders_func(j).folder, '/', folders_func(j).name]));
         fprintf(data_func(j).name);
     
         directory = [data_func(j).folder, '/', data_func(j).name, '/regression_6MPs'];
