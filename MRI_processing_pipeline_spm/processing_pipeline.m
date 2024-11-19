@@ -11,7 +11,7 @@ run('slice_timing.m');
 %Motion Correction
 run('motion_correction_unwarp.m');
  
-% Geometric Distortions Correction - Compute topup
+% Geometric Distortions Correction - Apply topup
 run('apply_topup.m');
 
 % Bias Field Correction 
