@@ -1,3 +1,5 @@
+Code repository for the stimulus and data analysis used in the study [A chronometric relationship between circuits underlying learning and error monitoring in the basal ganglia and salience network](https://doi.org/10.1162/imag_a_00343).
+
 # Folders:
 - Task: stimulus code. **Requirements**: Psychtoolbox 3.0
 - Protocol_definition: response (keypress and saccade) analysis to define the protocol (triggers and durations) and use it in the GLM. **Requirements**: edfImport
